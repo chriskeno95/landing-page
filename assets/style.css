@@ -9,6 +9,7 @@
 body {
     background-color: #e7efff;
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
     
 }
 
@@ -115,4 +116,62 @@ a {
     text-decoration: none;
     
 }
+.headerelements{
+position: relative;
+padding-left: 70px;
+top: 40px;
+}
 
+.headerelements h2 {
+    font-family:Helvetica, sans-serif;
+padding-bottom: 10px;}
+    
+
+.contact {
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+
+fieldset {
+    border-style: none;
+    position: relative;
+    top: 20px;
+}
+
+input {
+    padding: 10px 20px 10px 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 0px 70px 120px 0px;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    border-radius: 12px;
+    border-style: none;
+
+}
+.contactimg {
+    position: absolute;
+    left: 550px;
+    top: -180px;
+}
+
+.sendbutton {
+    position: relative;
+    top: 30px;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(58, 195, 58);
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
